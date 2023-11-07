@@ -12,4 +12,9 @@ How to setup Grafana loki promtail using Docker compose
         "loki-url": "http://loki:3100/loki/api/v1/push",
         "loki-batch-size": "400"
     }
-}```
+}
+```
+
+### Daemon Deadlock Discussion 
+
+https://grafana.com/docs/loki/latest/send-data/docker-driver/#known-issue-deadlocked-docker-daemon 
